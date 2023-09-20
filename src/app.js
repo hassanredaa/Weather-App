@@ -5,6 +5,8 @@ const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 const app = express()
 
+
+
 app.set('view engine', 'hbs')
 app.set('views' , path.join(__dirname,'../templates/views'))
 hbs.registerPartials(path.join(__dirname,'../templates/partials'))
